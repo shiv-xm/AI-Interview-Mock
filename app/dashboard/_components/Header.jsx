@@ -101,7 +101,7 @@ const Header = ({ logo }) => {
           <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3" >
           <Link href="/dashboard">
             <li
-              className={`hover:text-black hover:font-bold transition-all cursor-pointer ${
+              className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${
                 path == "/dashboard" && "text-black font-bold"
               }`}
             >
@@ -110,7 +110,7 @@ const Header = ({ logo }) => {
           </Link>
           <Link href="/dashboard/question">
           <li
-            className={`hover:text-black hover:font-bold transition-all cursor-pointer ${
+            className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${
               path == "/dashboard/question" && "text-black font-bold"
             }`}
           >
@@ -119,7 +119,7 @@ const Header = ({ logo }) => {
           </Link>
           <Link href="/dashboard/upgrade">
             <li
-              className={`hover:text-black hover:font-bold transition-all cursor-pointer ${
+              className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${
                 path == "/dashboard/upgrade" && "text-black font-bold"
               }`}
             >
@@ -128,7 +128,7 @@ const Header = ({ logo }) => {
           </Link>
           <Link href="/dashboard/howit">
             <li
-              className={`hover:text-black hover:font-bold transition-all cursor-pointer ${
+              className={`hover:text-primary hover:font-bold transition-all cursor-pointer ${
                 path == "/dashboard/howit" && "text-black font-bold"
               }`}
             >
